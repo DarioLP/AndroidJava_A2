@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
     <TableLayout
         android:layout_width="300dp"
@@ -13,7 +14,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:gravity="center_vertical">
+        android:gravity="center_vertical"
+        android:background="@drawable/panel_radius">
 
         <TableRow
             android:layout_width="match_parent"
@@ -26,7 +28,10 @@
                 android:layout_height="wrap_content"
                 android:hint="Galones Surtidos"
                 android:textSize="16dp"
-                android:gravity="center_horizontal"/>
+                android:gravity="center_horizontal"
+                android:background="@drawable/tvradius"
+                android:ems="10"
+                android:inputType="number"/>
         </TableRow>
 
         <TableRow
@@ -39,7 +44,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="Cantidad Litros..."
-                android:gravity="center_horizontal"/>
+                android:gravity="center_horizontal"
+                android:textColor="@color/white"/>
         </TableRow>
 
         <TableRow
@@ -52,7 +58,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:hint="valor..." />
+                android:hint="valor..."
+                android:textColor="@color/white"/>
         </TableRow>
 
         <TableRow
